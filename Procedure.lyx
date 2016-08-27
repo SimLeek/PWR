@@ -1,0 +1,701 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Part*
+Code
+\end_layout
+
+\begin_layout Section*
+Git
+\end_layout
+
+\begin_layout Subsection*
+SubTree
+\end_layout
+
+\begin_layout Standard
+https://www.atlassian.com/git/articles/alternatives-to-git-submodule-git-subtree/
+\end_layout
+
+\begin_layout Section*
+Testing
+\end_layout
+
+\begin_layout Standard
+http://coliru.stacked-crooked.com/
+\end_layout
+
+\begin_layout Section*
+Forums
+\end_layout
+
+\begin_layout Subsection*
+HTM
+\end_layout
+
+\begin_layout Itemize
+https://discourse.numenta.org/
+\end_layout
+
+\begin_layout Section*
+References
+\end_layout
+
+\begin_layout Subsection*
+OpenCl Optimization
+\end_layout
+
+\begin_layout Itemize
+http://developer.amd.com/tools-and-sdks/opencl-zone/amd-accelerated-parallel-proce
+ssing-app-sdk/opencl-optimization-guide/#50401334_pgfId-481974
+\end_layout
+
+\begin_layout Subsection*
+OpenCL Work Items/Work Groups
+\end_layout
+
+\begin_layout Standard
+http://stackoverflow.com/questions/21629973/understanding-work-items-and-work-gro
+ups
+\end_layout
+
+\begin_layout Subsection*
+HTM 
+\end_layout
+
+\begin_layout Subsubsection*
+CLA Classifiers
+\end_layout
+
+\begin_layout Standard
+http://www.sciencedirect.com/science/article/pii/S1877050915023881
+\end_layout
+
+\begin_layout Part*
+Testing Power Supply
+\end_layout
+
+\begin_layout Section*
+Build Proceedure
+\end_layout
+
+\begin_layout Enumerate
+Build Solidworks Model of container (correct sizes for switches/plus/etc
+ and modular design for future improvements)
+\end_layout
+
+\begin_layout Enumerate
+set up 3d printer
+\end_layout
+
+\begin_layout Enumerate
+(print replacement head for 3d printer)
+\end_layout
+
+\begin_layout Enumerate
+print out parts
+\end_layout
+
+\begin_layout Enumerate
+buy materials
+\end_layout
+
+\begin_layout Enumerate
+strip wires
+\end_layout
+
+\begin_layout Enumerate
+solder wires to female atx connector
+\end_layout
+
+\begin_layout Enumerate
+heat shrink connections
+\end_layout
+
+\begin_layout Enumerate
+jb weld female atx connector to 3d printed housing
+\end_layout
+
+\begin_layout Enumerate
+solder and heat shrink wires to switch, then jb weld to housing
+\end_layout
+
+\begin_layout Enumerate
+connect banana posts to housing (hex nut)
+\end_layout
+
+\begin_layout Enumerate
+crimp spade terminals to each remaining wire
+\end_layout
+
+\begin_layout Enumerate
+connect ground to all black banana posts (back side)
+\end_layout
+
+\begin_layout Enumerate
+connect other wires to remaining posts
+\end_layout
+
+\begin_layout Enumerate
+If necessary, connect 10W resistor between 5V terminal and ground
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+12 v and 3.3v pin may require resistors in rare cases
+\end_layout
+
+\begin_layout Enumerate
+Add ventilation if needed
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Screw box together
+\end_layout
+
+\begin_layout Section*
+Materials
+\end_layout
+
+\begin_layout Itemize
+Power Supply
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/Sentey-XPP725-HS-Computer-Desktop-Bearing/dp/B00SN6VN7W/ref
+=zg_bs_1161760_6
+\end_layout
+
+\begin_layout Itemize
+45$
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Heat Shrink
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/URBEST%C2%AE-530-Pcs-Shrink-Sleeving/dp/B00OZSL8UE/ref=sr_1
+_4?ie=UTF8&qid=1472324353&sr=8-4&keywords=heat+shrink
+\end_layout
+
+\begin_layout Itemize
+10.29$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Heat Gun
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/Wagner-0503008-HT1000-200-watt-Heat/dp/B00004TUCV/ref=sr_1_
+1?s=hi&ie=UTF8&qid=1472321543&sr=1-1&keywords=heat+gun&refinements=p_36%3A125352
+8011
+\end_layout
+
+\begin_layout Itemize
+19.05$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+J-B Weld
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/J-B-Weld-8265S-Steel-Reinforced/dp/B0006O1ICE/ref=sr_1_3?ie
+=UTF8&qid=1472321961&sr=8-3&keywords=epoxy+cement
+\end_layout
+
+\begin_layout Itemize
+3.27$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Ratcheting Crimper
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/Professional-Ratcheting-70005-Insulated-Terminals/dp/B017JX
+8W2I/ref=sr_1_3?ie=UTF8&qid=1472314247&sr=8-3&keywords=ratcheting+wire+crimper
+\end_layout
+
+\begin_layout Itemize
+20.00$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Multimeter
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/Etekcity-MSR-R500-Digital-Multimeter-Continuity/dp/B00KHP6E
+IK/ref=sr_1_1?ie=UTF8&qid=1472314190&sr=8-1&keywords=multimeter
+\end_layout
+
+\begin_layout Itemize
+13.00$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Female ATX Power Supply Connector
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://www.kr4.us/atx-power-supply-connector-straight.html?gclid=Cj0KEQjw9IS-BRC4qZ
+XagbLs6uMBEiQAYHBh-z81APfkPs3_dhhpSDAPrEtfS9V-_0YRx9xBBkeXxOQaAnLf8P8HAQ
+\end_layout
+
+\begin_layout Itemize
+1.50$
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Black Binding Post (X4)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://www.kr4.us/binding-post-black.html
+\end_layout
+
+\begin_layout Itemize
+1.40$
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Red Binding Post (X4)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://www.kr4.us/binding-post-red.html
+\end_layout
+
+\begin_layout Itemize
+1.40$
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Black Wire
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://www.kr4.us/hook-up-stranded-wire-black.html
+\end_layout
+
+\begin_layout Itemize
+2.95$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Red Wire
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://www.kr4.us/hook-up-wire-red.html
+\end_layout
+
+\begin_layout Itemize
+2.50$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+White Wire
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://www.kr4.us/hook-up-wire-white.html
+\end_layout
+
+\begin_layout Itemize
+2.50$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Soldering Iron
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/ALEMON-Soldering-Adjustable-Temperature-Desoldering/dp/B01I
+NB4K3A/ref=sr_1_2?ie=UTF8&qid=1472322224&sr=8-2-spons&keywords=soldering+iron&ps
+c=1
+\end_layout
+
+\begin_layout Itemize
+22.00$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Wire Stripper
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/IRWIN-VISE-GRIP-Self-Adjusting-Stripper-2078300/dp/B000OQ21
+CA/ref=sr_1_3?s=hi&ie=UTF8&qid=1472322508&sr=1-3&keywords=wire+strippers
+\end_layout
+
+\begin_layout Itemize
+19.00$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Wire Crimps
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/uxcell%C2%AE-22-16AWG-Insulated-Terminals-Connector/dp/B00W
+8U1220/ref=sr_1_7?ie=UTF8&qid=1472325339&sr=8-7&keywords=crimp+on+spade+22+awg
+\end_layout
+
+\begin_layout Itemize
+10.90$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Switch
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://www.kr4.us/rocker-switch-spst-round.html
+\end_layout
+
+\begin_layout Itemize
+0.50$
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+10W 10 Ohm resistor
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/uxcell%C2%AE-Winding-Ceramic-Cement-Resistor/dp/B00J2N347W/
+ref=sr_1_2?ie=UTF8&qid=1472323078&sr=8-2&keywords=10+w+10+ohm+resistor
+\end_layout
+
+\begin_layout Itemize
+2.50$
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+ScrewDriver Set
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.amazon.com/Screwdriver-Precision-Magnetic-Professional-Electronics/dp/
+B01E16J6RQ/ref=sr_1_7?s=power-hand-tools&ie=UTF8&qid=1472327706&sr=1-7&keywords=
+screwdriver+set
+\end_layout
+
+\begin_layout Itemize
+15.00$
+\end_layout
+
+\begin_layout Itemize
+(Reusable)
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
+Additional
+\end_layout
+
+\begin_layout Subsubsection*
+12-24 V Output
+\end_layout
+
+\begin_layout Itemize
+Pick from here:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://www.powerstream.com/dcdc-24V.htm
+\end_layout
+
+\end_deeper
+\begin_layout Part*
+Arm
+\end_layout
+
+\begin_layout Section*
+Materials
+\end_layout
+
+\begin_layout Itemize
+heat shrink
+\end_layout
+
+\begin_layout Itemize
+Temporary Battery:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://www.batteryspace.com/sealedleadacidbattery12v10ah120whs.aspx
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Arm Controller:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+arduino mega
+\end_layout
+
+\begin_layout Itemize
+$45.95
+\end_layout
+
+\begin_layout Itemize
+FOR TESTING PURPOSES ONLY (Too expensive, but tools are required for better
+ MCs)
+\end_layout
+
+\begin_layout Itemize
+https://www.adafruit.com/products/191
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pectoral motor: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+$19.99
+\end_layout
+
+\begin_layout Itemize
+http://www.hobbyking.com/hobbyking/store/__24952__B28_57_15L_Brushless_Inrunner_19
+00kv.html
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pectoral Speed Controller:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+$20.85
+\end_layout
+
+\begin_layout Itemize
+http://www.hobbyking.com/hobbyking/store/__37947__Hobbyking_YEP_40A_2_6S_SBEC_Brus
+hless_Speed_Controller.html
+\end_layout
+
+\begin_layout Itemize
+(2-6 cells means ~7.5V - ~22V)
+\end_layout
+
+\begin_layout Itemize
+(Has reverse function)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Skin Temperature Sensors:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.adafruit.com/products/165
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Limit Sensors:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.adafruit.com/products/2831
+\end_layout
+
+\begin_layout Itemize
+https://www.adafruit.com/products/161
+\end_layout
+
+\end_deeper
+\begin_layout Section*
+Set Up
+\end_layout
+
+\begin_layout Itemize
+Electronic Speed Control (ESC) Programming:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://www.instructables.com/id/ESC-Programming-on-Arduino-Hobbyking-ESC/?ALLSTEPS
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Electronic Speed Control (ESC) Usage:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+http://electronics.stackexchange.com/questions/164803/whats-the-relationship-betwe
+en-esc-pwm-input-and-output
+\end_layout
+
+\begin_layout Itemize
+http://aeroquad.com/showthread.php?5502-Which-PWM-frequency-do-I-use-to-control-my
+-ESC
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
