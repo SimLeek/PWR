@@ -74,6 +74,10 @@
 Code
 \end_layout
 
+\begin_layout Standard
+esc controller with serial port input ardiono (search online)
+\end_layout
+
 \begin_layout Section*
 Git
 \end_layout
@@ -142,6 +146,14 @@ http://www.sciencedirect.com/science/article/pii/S1877050915023881
 
 \begin_layout Part*
 Testing Power Supply
+\end_layout
+
+\begin_layout Standard
+Via:
+\end_layout
+
+\begin_layout Standard
+http://makezine.com/projects/computer-power-supply-to-bench-power-supply-adapter/
 \end_layout
 
 \begin_layout Section*
@@ -344,8 +356,7 @@ Female ATX Power Supply Connector
 
 \begin_deeper
 \begin_layout Itemize
-http://www.kr4.us/atx-power-supply-connector-straight.html?gclid=Cj0KEQjw9IS-BRC4qZ
-XagbLs6uMBEiQAYHBh-z81APfkPs3_dhhpSDAPrEtfS9V-_0YRx9xBBkeXxOQaAnLf8P8HAQ
+https://www.sparkfun.com/products/9497
 \end_layout
 
 \begin_layout Itemize
@@ -359,7 +370,7 @@ Black Binding Post (X4)
 
 \begin_deeper
 \begin_layout Itemize
-http://www.kr4.us/binding-post-black.html
+https://www.sparkfun.com/products/9740
 \end_layout
 
 \begin_layout Itemize
@@ -373,11 +384,29 @@ Red Binding Post (X4)
 
 \begin_deeper
 \begin_layout Itemize
-http://www.kr4.us/binding-post-red.html
+https://www.sparkfun.com/products/9739
 \end_layout
 
 \begin_layout Itemize
 1.40$
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Solder, 63/37
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+https://www.sparkfun.com/products/9161
+\end_layout
+
+\begin_layout Itemize
+5.95$
+\end_layout
+
+\begin_layout Itemize
+(reusable)
 \end_layout
 
 \end_deeper
@@ -387,7 +416,7 @@ Black Wire
 
 \begin_deeper
 \begin_layout Itemize
-http://www.kr4.us/hook-up-stranded-wire-black.html
+https://www.sparkfun.com/products/8867
 \end_layout
 
 \begin_layout Itemize
@@ -405,7 +434,7 @@ Red Wire
 
 \begin_deeper
 \begin_layout Itemize
-http://www.kr4.us/hook-up-wire-red.html
+https://www.sparkfun.com/products/8865
 \end_layout
 
 \begin_layout Itemize
@@ -423,7 +452,7 @@ White Wire
 
 \begin_deeper
 \begin_layout Itemize
-http://www.kr4.us/hook-up-wire-white.html
+https://www.sparkfun.com/products/8866
 \end_layout
 
 \begin_layout Itemize
@@ -499,7 +528,7 @@ Switch
 
 \begin_deeper
 \begin_layout Itemize
-http://www.kr4.us/rocker-switch-spst-round.html
+https://www.sparkfun.com/products/11138
 \end_layout
 
 \begin_layout Itemize
